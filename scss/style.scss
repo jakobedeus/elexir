@@ -1,0 +1,16 @@
+@import "mixins";
+@import "mobile";
+@import "animation";
+
+
+@media screen and (min-width: 720px) {
+    
+    @import "tablet"; 
+}
+
+
+@media screen and (min-width: 960px) {
+    
+    @import "desktop"; 
+}
+
